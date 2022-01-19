@@ -582,7 +582,7 @@ using OnlyTheBest;
                 { ""title"": ""Little Village"", ""address1"": ""Little Village"", ""address2"": ""Chicago, IL, USA"", ""coords"": { ""lat"": 41.844600481560015, ""lng"": -87.7050606932541 }, ""placeId"": ""3"", ""test"": ""gang3"" }
             ],
             ""mapOptions"": { ""center"": { ""lat"": 38.0, ""lng"": -100.0 }, ""fullscreenControl"": true, ""mapTypeControl"": false, ""streetViewControl"": false, ""zoom"": 4, ""zoomControl"": true, ""maxZoom"": 17 },
-            ""mapsApiKey"": ""AIzaSyD97ssX0s8xlqRGX-dEqs-fVbxaYq180IQ""
+            ""mapsApiKey"": ""API_KEY""
         };
 
         function initMap() {
@@ -643,7 +643,7 @@ using OnlyTheBest;
         <div id=""map"">
         </div>
     </div>
-    <script src=""https://maps.googleapis.com/maps/api/js?key=AIzaSyD97ssX0s8xlqRGX-dEqs-fVbxaYq180IQ&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD"" async defer></script>
+    <script src=""https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD"" async defer></script>
 ");
             }
             );
